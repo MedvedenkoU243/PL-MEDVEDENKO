@@ -11,10 +11,10 @@ def f(n):
         return n*f(n-1)
 def c(x,n):
     return p(x,n)/f(n)
-#x=int(input('x = '))
-#n=int(input('n = '))
-#r=c(x,n)
-#print(f"Результат выражения {x}^{n} / {n}! = {r}")
+x=int(input('x = '))
+n=int(input('n = '))
+r=c(x,n)
+print(f"Результат выражения {x}^{n} / {n}! = {r}")
 print()
 #1.Б)
 def fm():
